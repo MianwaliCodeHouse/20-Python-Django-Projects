@@ -1,0 +1,30 @@
+project : 1
+
+prompt-->1
+Create a registration system using Django
+you can use bootstrap for UI
+
+Registration System Details:
+it will get data from user like name,email,password and store it into database for login purpose
+
+
+
+----------------------
+
+
+Project:2
+create a login system using Django
+use bootstrap for UI
+
+Login System Details:
+first user login then he will be able to go dashboard here will be a button to logout and after logined user cann't be able to go to login page untill he logout
+
+---------------------
+
+
+Project:3
+create middlewares to check user is logined or not logined because if i have 100 dashboard pages then i don't want to implement belwo logic on each page:
+if 'user_id' not in session:
+return redirect(url_for('login'))
+
+"Also create 2 or 3 dashboard simple pages "
